@@ -1,0 +1,138 @@
+* {
+  font-family: 'Roboto';
+}
+
+.brandeis-blue {
+  background-color: #0b69ff;
+}
+
+.cadet-grey {
+  background-color: #94a3b8;
+}
+
+.pastel-blue {
+  background-color: #b6c3ca;
+}
+
+.violet-blue {
+  background-color: #7683cb;
+}
+
+.orange {
+  background-color: #f59e0b;
+}
+
+.green {
+  background-color: #10b981;
+}
+
+.pumpkin {
+  background-color: #f97316;
+}
+
+.light-sea-green {
+  background-color: #14b8a6;
+}
+
+.carnelian {
+  background-color: #b91c1c;
+}
+
+.vivid-cerulean {
+  background-color: #0ea5e9;
+}
+
+.slate-grey {
+  background-color: #64748b;
+}
+
+.password-item {
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0px 0px 16px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-item {
+    margin: 0px 12px 20px 12px;
+    min-width: 297px;
+  }
+}
+
+.password-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin: 0px 14px 0px 0px;
+  flex-shrink: 0;
+}
+
+.initial {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* align-items: center; */
+  margin: 20px 0px 12px 0px;
+}
+
+.user-info {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0px 0px 0px;
+}
+
+.stars-icon {
+  width: 80px;
+  height: 10px;
+  margin: 10px 0px 0px 0px;
+}
+
+.delete-button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  width: 18px;
+  height: 18px;
+  align-self: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
